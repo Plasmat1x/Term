@@ -14,7 +14,7 @@
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 # Forum/Blog Project
-Автор: Мрясов М.С
+Автор: Мрясов М.С  
 Тема: Форум/Блог
 
 ##  1. <a name='About'></a>About
