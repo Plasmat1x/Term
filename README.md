@@ -1,14 +1,29 @@
+<!-- vscode-markdown-toc -->
+* 1. [About](#About)
+	* 1.1. [Описание](#)
+* 2. [Build & Run](#BuildRun)
+* 3. [Stack:](#Stack:)
+	* 3.1. [Frontend:](#Frontend:)
+	* 3.2. [Backend:](#Backend:)
+	* 3.3. [Infrastructure:](#Infrastructure:)
+* 4. [Media](#Media)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 # Forum/Blog Project
 Автор: Мрясов М.С
 Тема: Форум/Блог
 
-## About
+##  1. <a name='About'></a>About
 Форум/блог - простой проект блога с возможностью регистрации пользователей,
 создания постов, коментирования постов. 
 
 особенности проекта, аутентификация и авторизация пользователей, разграничения доступа пользователем к части функционала по роли. Построен проект на бэкенде ASP.NET Rest Api и фронтенде Node.js React.
 
-### Описание
+###  1.1. <a name=''></a>Описание
 
 **инфрастуктурная часть:**  
 - Comment - класс сущности БД.  
@@ -52,7 +67,7 @@
 - DELETE /api/posts/{id}
 - POST /api/posts/create
 
-## Build & Run
+##  2. <a name='BuildRun'></a>Build & Run
 
 Download
 ```cmd
@@ -75,8 +90,8 @@ npm i
 npm run dev
 ```
 
-## Stack:
-### Frontend:
+##  3. <a name='Stack:'></a>Stack:
+###  3.1. <a name='Frontend:'></a>Frontend:
 - JS
 - React
 - Vite
@@ -86,17 +101,17 @@ npm run dev
 - axios
  
 
-### Backend:
+###  3.2. <a name='Backend:'></a>Backend:
 - .NET 7
 - ASP.NET Core
 - Identity
 - EntityFramework
 - Swashbuckle
 
-### Infrastructure:
+###  3.3. <a name='Infrastructure:'></a>Infrastructure:
 - MSSQL 2016
 
-## Media
+##  4. <a name='Media'></a>Media
 ![db](./GitItems/db.png)
 ERD диаграмма БД.
 
